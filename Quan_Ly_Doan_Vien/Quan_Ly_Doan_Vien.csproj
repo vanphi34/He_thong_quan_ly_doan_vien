@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6435158B-D060-471D-B295-D6BB7109E9C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quan_Ly_Doan_Vien</RootNamespace>
+    <AssemblyName>Quan_Ly_Doan_Vien</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BLL_changepass.cs" />
+    <Compile Include="BLL\BLL_createAcc.cs" />
+    <Compile Include="BLL\BLL_ktkl.cs" />
+    <Compile Include="BLL\BLL_login.cs" />
+    <Compile Include="BLL\BLL_qlcs.cs" />
+    <Compile Include="BLL\BLL_qldv.cs" />
+    <Compile Include="BLL\BLL_qltk.cs" />
+    <Compile Include="BLL\BLL_quenmk.cs" />
+    <Compile Include="BLL\BLL_update_info.cs" />
+    <Compile Include="DAL\DAL.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\changePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\changePass.Designer.cs">
+      <DependentUpon>changePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\createAcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\createAcc.Designer.cs">
+      <DependentUpon>createAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\indexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\indexForm.Designer.cs">
+      <DependentUpon>indexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\kt_kl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\kt_kl.Designer.cs">
+      <DependentUpon>kt_kl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\qlcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\qlcs.Designer.cs">
+      <DependentUpon>qlcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\qldv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\qldv.Designer.cs">
+      <DependentUpon>qldv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\QLTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\QLTK.Designer.cs">
+      <DependentUpon>QLTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\quenmk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\quenmk.Designer.cs">
+      <DependentUpon>quenmk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\update_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\update_info.Designer.cs">
+      <DependentUpon>update_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="view\changePass.resx">
+      <DependentUpon>changePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\createAcc.resx">
+      <DependentUpon>createAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\indexForm.resx">
+      <DependentUpon>indexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\kt_kl.resx">
+      <DependentUpon>kt_kl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\qlcs.resx">
+      <DependentUpon>qlcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\qldv.resx">
+      <DependentUpon>qldv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\QLTK.resx">
+      <DependentUpon>QLTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\quenmk.resx">
+      <DependentUpon>quenmk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\update_info.resx">
+      <DependentUpon>update_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macos-close-25 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DOAN.PND.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
