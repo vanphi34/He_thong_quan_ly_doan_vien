@@ -55,6 +55,7 @@ namespace Quan_Ly_Doan_Vien
             this.txt_usename.Name = "txt_usename";
             this.txt_usename.Size = new System.Drawing.Size(145, 22);
             this.txt_usename.TabIndex = 100;
+            this.txt_usename.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_usename_KeyPress);
             // 
             // label2
             // 
@@ -73,6 +74,7 @@ namespace Quan_Ly_Doan_Vien
             this.txt_password.Size = new System.Drawing.Size(145, 22);
             this.txt_password.TabIndex = 101;
             this.txt_password.UseSystemPasswordChar = true;
+            this.txt_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_password_KeyPress);
             // 
             // btn_login
             // 
@@ -122,6 +124,7 @@ namespace Quan_Ly_Doan_Vien
             this.lblqmk.TabIndex = 105;
             this.lblqmk.Text = "Quên mật khẩu?";
             this.lblqmk.Click += new System.EventHandler(this.lblqmk_Click);
+            this.lblqmk.MouseLeave += new System.EventHandler(this.lblqmk_MouseLeave);
             this.lblqmk.MouseHover += new System.EventHandler(this.label1_MouseHover);
             // 
             // login

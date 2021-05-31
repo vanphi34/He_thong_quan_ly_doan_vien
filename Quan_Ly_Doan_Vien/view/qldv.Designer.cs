@@ -440,10 +440,10 @@ namespace Quan_Ly_Doan_Vien.view
             // btnktkl
             // 
             this.btnktkl.Enabled = false;
-            this.btnktkl.Location = new System.Drawing.Point(651, 240);
+            this.btnktkl.Location = new System.Drawing.Point(646, 240);
             this.btnktkl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnktkl.Name = "btnktkl";
-            this.btnktkl.Size = new System.Drawing.Size(106, 40);
+            this.btnktkl.Size = new System.Drawing.Size(106, 50);
             this.btnktkl.TabIndex = 113;
             this.btnktkl.Text = "Khen thưởng kỉ luật";
             this.btnktkl.UseVisualStyleBackColor = true;

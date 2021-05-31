@@ -17,9 +17,14 @@ namespace Quan_Ly_Doan_Vien.BLL
                 string getpass = "select pass from acc where name ='" + login.account + "'";
                 DataTable pass = data.gettb(getpass);
                 string a = pass.Rows[0].ItemArray.GetValue(0).ToString();
-                if (!a.Equals(old_pass))
+                if(old_pass.Equals("") || new_pass.Equals("") || confirm_pass.Equals(""))
                 {
-                    MessageBox.Show("lll");
+                    MessageBox.Show("Hãy nhập đầy đủ thông tin.");
+                }
+
+                else if (!a.Equals(old_pass))
+                {
+                    MessageBox.Show("Mật khẩu cũ không đúng.");
                 }
                 else
                 {

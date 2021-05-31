@@ -98,15 +98,34 @@ namespace Quan_Ly_Doan_Vien
 
         private void label1_MouseHover(object sender, EventArgs e)
         {
-           // lblqmk.ForeColor = ForeColor.ToArgb(32,90,167);
+            this.Cursor = Cursors.Hand;
         }
-
+        private void lblqmk_MouseLeave(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+        }
         private void lblqmk_Click(object sender, EventArgs e)
         {
             quenmk a = new quenmk();
             a.Show();
             this.Hide();
 
+        }
+
+        private void txt_usename_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(Convert.ToInt32(e.KeyChar) == 13)
+            {
+                this.ActiveControl = txt_password;
+            }
+        }
+
+        private void txt_password_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Convert.ToInt32(e.KeyChar) == 13)
+            {
+                btn_login_Click(sender, e);
+            }
         }
     }
 }

@@ -42,50 +42,53 @@ namespace Quan_Ly_Doan_Vien.view
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 63);
+            this.label1.Location = new System.Drawing.Point(248, 116);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 20);
+            this.label1.Size = new System.Drawing.Size(90, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "tên tài khoản";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(77, 108);
+            this.label2.Location = new System.Drawing.Point(248, 152);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 20);
+            this.label2.Size = new System.Drawing.Size(68, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mật Khẩu";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(77, 154);
+            this.label3.Location = new System.Drawing.Point(248, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 20);
+            this.label3.Size = new System.Drawing.Size(58, 17);
             this.label3.TabIndex = 0;
             this.label3.Text = "Phạm vi";
             // 
             // txtname
             // 
-            this.txtname.Location = new System.Drawing.Point(215, 63);
+            this.txtname.Location = new System.Drawing.Point(386, 116);
+            this.txtname.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtname.Name = "txtname";
-            this.txtname.Size = new System.Drawing.Size(163, 27);
+            this.txtname.Size = new System.Drawing.Size(163, 22);
             this.txtname.TabIndex = 1;
             // 
             // txtpass
             // 
-            this.txtpass.Location = new System.Drawing.Point(215, 108);
+            this.txtpass.Location = new System.Drawing.Point(386, 152);
+            this.txtpass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(163, 27);
+            this.txtpass.Size = new System.Drawing.Size(163, 22);
             this.txtpass.TabIndex = 2;
             this.txtpass.UseSystemPasswordChar = true;
             // 
             // btntao
             // 
-            this.btntao.Location = new System.Drawing.Point(240, 258);
+            this.btntao.Location = new System.Drawing.Point(411, 272);
+            this.btntao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btntao.Name = "btntao";
-            this.btntao.Size = new System.Drawing.Size(94, 29);
+            this.btntao.Size = new System.Drawing.Size(94, 31);
             this.btntao.TabIndex = 4;
             this.btntao.Text = "Tạo";
             this.btntao.UseVisualStyleBackColor = true;
@@ -94,9 +97,10 @@ namespace Quan_Ly_Doan_Vien.view
             // cbhienthipass
             // 
             this.cbhienthipass.AutoSize = true;
-            this.cbhienthipass.Location = new System.Drawing.Point(215, 203);
+            this.cbhienthipass.Location = new System.Drawing.Point(386, 228);
+            this.cbhienthipass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbhienthipass.Name = "cbhienthipass";
-            this.cbhienthipass.Size = new System.Drawing.Size(148, 24);
+            this.cbhienthipass.Size = new System.Drawing.Size(140, 21);
             this.cbhienthipass.TabIndex = 5;
             this.cbhienthipass.Text = "Hiển thị mật khẩu";
             this.cbhienthipass.UseVisualStyleBackColor = true;
@@ -109,16 +113,17 @@ namespace Quan_Ly_Doan_Vien.view
             this.cbbphamvi.Items.AddRange(new object[] {
             "admin",
             "user"});
-            this.cbbphamvi.Location = new System.Drawing.Point(215, 146);
+            this.cbbphamvi.Location = new System.Drawing.Point(386, 183);
+            this.cbbphamvi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbbphamvi.Name = "cbbphamvi";
-            this.cbbphamvi.Size = new System.Drawing.Size(163, 28);
+            this.cbbphamvi.Size = new System.Drawing.Size(163, 24);
             this.cbbphamvi.TabIndex = 6;
             // 
             // createAcc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(585, 353);
+            this.ClientSize = new System.Drawing.Size(798, 417);
             this.Controls.Add(this.cbbphamvi);
             this.Controls.Add(this.cbhienthipass);
             this.Controls.Add(this.btntao);
@@ -128,6 +133,7 @@ namespace Quan_Ly_Doan_Vien.view
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "createAcc";
             this.Text = "createAcc";
             this.ResumeLayout(false);

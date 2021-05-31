@@ -45,8 +45,8 @@ namespace Quan_Ly_Doan_Vien.view
             this.mntsqltk = new System.Windows.Forms.ToolStripMenuItem();
             this.tcmain = new System.Windows.Forms.TabControl();
             this.tptrangchu = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.tcmain.SuspendLayout();
             this.tptrangchu.SuspendLayout();
@@ -160,7 +160,7 @@ namespace Quan_Ly_Doan_Vien.view
             // 
             this.mntsqltk.Name = "mntsqltk";
             this.mntsqltk.Size = new System.Drawing.Size(224, 26);
-            this.mntsqltk.Text = "Quản lý tài khoản";
+            this.mntsqltk.Text = "Quản lý người dùng";
             this.mntsqltk.Click += new System.EventHandler(this.mntsqltk_Click);
             // 
             // tcmain
@@ -188,16 +188,6 @@ namespace Quan_Ly_Doan_Vien.view
             this.tptrangchu.Text = "Trang chủ";
             this.tptrangchu.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(221, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(490, 36);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "PHẦN MỀM QUẢN LÝ ĐOÀN VIÊN";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Quan_Ly_Doan_Vien.Properties.Resources.DOAN_PND;
@@ -207,6 +197,16 @@ namespace Quan_Ly_Doan_Vien.view
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.Location = new System.Drawing.Point(221, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(490, 36);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "PHẦN MỀM QUẢN LÝ ĐOÀN VIÊN";
             // 
             // indexForm
             // 

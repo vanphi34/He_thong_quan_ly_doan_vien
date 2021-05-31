@@ -34,5 +34,10 @@ namespace Quan_Ly_Doan_Vien.view
             txtname.Clear();
             txttrl.Clear();
         }
+
+        private void quenmk_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

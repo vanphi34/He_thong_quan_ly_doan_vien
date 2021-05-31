@@ -140,6 +140,7 @@ namespace Quan_Ly_Doan_Vien.view
             this.Name = "quenmk";
             this.Text = "quenmk";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.quenmk_FormClosed);
+            this.Load += new System.EventHandler(this.quenmk_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

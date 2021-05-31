@@ -43,7 +43,7 @@ namespace Quan_Ly_Doan_Vien.view
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(180, 32);
+            this.label1.Location = new System.Drawing.Point(193, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 17);
             this.label1.TabIndex = 0;
@@ -52,7 +52,7 @@ namespace Quan_Ly_Doan_Vien.view
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(183, 83);
+            this.label4.Location = new System.Drawing.Point(196, 133);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 17);
             this.label4.TabIndex = 3;
@@ -61,7 +61,7 @@ namespace Quan_Ly_Doan_Vien.view
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(183, 134);
+            this.label5.Location = new System.Drawing.Point(196, 184);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 17);
             this.label5.TabIndex = 4;
@@ -70,14 +70,14 @@ namespace Quan_Ly_Doan_Vien.view
             // txtname
             // 
             this.txtname.Enabled = false;
-            this.txtname.Location = new System.Drawing.Point(315, 32);
+            this.txtname.Location = new System.Drawing.Point(328, 82);
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(252, 22);
             this.txtname.TabIndex = 5;
             // 
             // txttraloi
             // 
-            this.txttraloi.Location = new System.Drawing.Point(315, 134);
+            this.txttraloi.Location = new System.Drawing.Point(328, 184);
             this.txttraloi.Name = "txttraloi";
             this.txttraloi.Size = new System.Drawing.Size(252, 22);
             this.txttraloi.TabIndex = 8;
@@ -92,14 +92,14 @@ namespace Quan_Ly_Doan_Vien.view
             "Tên thời thơ ấu của bạn",
             "Tên bạn thân nhất của bạn",
             "Tên ny của bạn"});
-            this.cbbcauhoi.Location = new System.Drawing.Point(315, 83);
+            this.cbbcauhoi.Location = new System.Drawing.Point(328, 133);
             this.cbbcauhoi.Name = "cbbcauhoi";
             this.cbbcauhoi.Size = new System.Drawing.Size(252, 24);
             this.cbbcauhoi.TabIndex = 9;
             // 
             // btnsua
             // 
-            this.btnsua.Location = new System.Drawing.Point(315, 235);
+            this.btnsua.Location = new System.Drawing.Point(328, 285);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(102, 29);
             this.btnsua.TabIndex = 10;
@@ -110,7 +110,7 @@ namespace Quan_Ly_Doan_Vien.view
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(183, 177);
+            this.label2.Location = new System.Drawing.Point(196, 227);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 17);
             this.label2.TabIndex = 11;
@@ -118,7 +118,7 @@ namespace Quan_Ly_Doan_Vien.view
             // 
             // txtxacnhan
             // 
-            this.txtxacnhan.Location = new System.Drawing.Point(315, 177);
+            this.txtxacnhan.Location = new System.Drawing.Point(328, 227);
             this.txtxacnhan.Name = "txtxacnhan";
             this.txtxacnhan.Size = new System.Drawing.Size(252, 22);
             this.txtxacnhan.TabIndex = 12;
@@ -127,7 +127,7 @@ namespace Quan_Ly_Doan_Vien.view
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(766, 331);
+            this.ClientSize = new System.Drawing.Size(766, 367);
             this.Controls.Add(this.txtxacnhan);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnsua);
